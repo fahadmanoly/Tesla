@@ -1,0 +1,291 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8ch;
+}
+
+nav .btn{
+    color: black;
+    text-decoration: none;
+    margin-right: 18px;
+    padding: 10px;
+}
+.model_3{
+    margin: 0;
+    padding: 0;
+    background-image: url('Model 3.jpg');
+    background-size: cover;
+    height: 100ch;
+    
+
+}
+
+
+.model_y{
+    margin: 0;
+    padding: 0;
+    background-image: url('Model\ Y.jfif');
+    background-size: cover;
+    height: 100ch;
+}
+
+.model_s{
+    margin: 0;
+    padding: 0;
+    background-image: url('Model\ s.jfif');
+    background-size: cover;
+    height: 100ch;
+}
+
+.model_x{
+    margin: 0;
+    padding: 0;
+    background-image: url('Model\ X.jfif');
+    background-size: cover;
+    height: 100ch;
+}
+
+.spanel{
+    margin: 0;
+    padding: 0;
+    background-image: url('Solar\ Panel.jfif');
+    background-size: cover;
+    height: 100ch;
+}
+
+.sroof{
+    margin: 0;
+    padding: 0;
+    background-image: url('Solar\ roof.webp');
+    background-size: cover;
+    height: 100ch;
+}
+
+.accessories{
+    margin: 0;
+    padding: 0;
+    background-image: url('Accessories.jfif');
+    background-size: cover;
+    height: 100ch;
+}
+
+.content3{
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 550px;
+    text-align: center;
+    }
+.content3 h1{
+    font-size: 4.5ch;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2ch;
+}
+.links{
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 370px;
+    }
+.links .custom{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(50, 50, 50);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links .existing{
+    padding: 10px 65px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    background-color: #fff; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contenty{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 550px;
+    text-align: center;
+    }
+    .contenty h1{
+        font-size: 4.5ch;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+       .contenty p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2ch;
+    }
+    .links2{
+        position: absolute;
+        margin-top: 700px;
+        margin-left: 390px;
+        }
+    .links2 .custom{
+        padding: 10px 80px;
+        text-decoration: none;
+        color: #fff;
+        background-color: rgba(50, 50, 50, .8);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .links2 .existing{
+        padding: 10px 65px;
+        text-decoration: none;
+        color: black;
+        background-color: rgba(200, 200, 200, .8);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+
+
+.contents{
+        position: absolute;
+        margin-top: 205px;
+        margin-left: 550px;
+        text-align: center;
+        }
+        .contents h1{
+            font-size: 4.5ch;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        
+        .contents p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2ch;
+        }
+
+
+.contentx{
+            position: absolute;
+            margin-top: 215px;
+            margin-left: 550px;
+            text-align: center;
+            }
+            .contentx h1{
+                font-size: 4.5ch;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            
+            .contentx p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 2ch;
+            }
+
+.contentspanel{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 550px;
+    text-align: center;
+    }
+.contentspanel h1{
+    font-size: 4ch;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contentspanel p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2ch;
+}
+
+.links3{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 385px;
+    }
+.links3 .custom{
+    padding: 10px 95px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(50, 50, 50, .8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links3 .existing{
+    padding: 10px 90px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    background-color: rgba(200, 200, 200, .8); 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.contentsroof{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 550px;
+    text-align: center;
+    }
+.contentsroof h1{
+    font-size: 4ch;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contentsroof p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2ch;
+}
+
+
+.contentacc{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 550px;
+    text-align: center;
+    }
+.contentacc h1{
+    font-size: 4.5ch;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.links4{
+    position: absolute;
+    margin-top: 670px;
+    margin-left: 525px;
+    }
+.links4 .custom{
+    padding: 10px 95px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(50, 50, 50, .8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
